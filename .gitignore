@@ -1,0 +1,5 @@
+﻿*.bak
+bin/
+*.obj
+~*.*
+D[d]ebug/
