@@ -1,1 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student name = "张三" sno = "001"/>
+	<student name = "李四" sno = "002"> </student>
+</students>
