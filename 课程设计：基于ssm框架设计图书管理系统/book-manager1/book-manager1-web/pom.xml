@@ -7,4 +7,33 @@
   </parent>
   <artifactId>book-manager1-web</artifactId>
   <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+	  	<groupId>cn.gdut</groupId>
+	    <artifactId>book-common</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  <modules>
+  	<module>book-manager-dao</module>
+  	<module>book-manager-pojo</module>
+  	<module>book-manager-interface</module>
+  	<module>book-manager-service</module>
+  	<module>book-manager-web</module>
+  </modules>
+  <!-- 配置tomcat插件 -->
+  <build>
+  	<plugins>
+  		<!-- 配置Tomcat插件 -->
+		<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+	
+			<configuration>
+				<path>/</path>
+				<port>8080</port>
+			</configuration>
+		</plugin>
+  	</plugins>
+  </build>
 </project>

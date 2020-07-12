@@ -16,4 +16,19 @@
   	<module>book-manager1-service</module>
   	<module>book-manager1-web</module>
   </modules>
+  <!-- 配置tomcat插件 -->
+  <build>
+  	<plugins>
+  		<!-- 配置Tomcat插件 -->
+		<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+	
+			<configuration>
+				<path>/</path>
+				<port>8080</port>
+			</configuration>
+		</plugin>
+  	</plugins>
+  </build>
 </project>
