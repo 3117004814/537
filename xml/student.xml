@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<students xmlns="3117004814.gdut.edu.cn" xmlns:other="3117004814.gdut.edu.cn">
-	<other:student>
+<students xmlns="3117004814.gdut.edu.cn" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="3117004814.gdut.edu.cn student.xsd">
+	<student>
 		<sno>001</sno>
 		<name>张三</name>
-		<depart>计算机</depart>
-</other:student>
+	</student>
 </students>
