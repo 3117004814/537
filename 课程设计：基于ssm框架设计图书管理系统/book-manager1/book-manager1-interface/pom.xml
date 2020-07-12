@@ -2,15 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>cn.gdut</groupId>
-    <artifactId>book-parent1</artifactId>
+    <artifactId>book-manager1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>cn.gdut</groupId>
-  <artifactId>book-manager1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>book-manager1-dao</module>
-  	<module>book-manager1-interface</module>
-  </modules>
+  <artifactId>book-manager1-interface</artifactId>
 </project>
