@@ -14,5 +14,6 @@
   	<module>book-manager1-interface</module>
   	<module>book-manager1-pojo</module>
   	<module>book-manager1-service</module>
+  	<module>book-manager1-web</module>
   </modules>
 </project>
