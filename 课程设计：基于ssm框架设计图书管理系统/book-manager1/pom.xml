@@ -13,5 +13,6 @@
   	<module>book-manager1-dao</module>
   	<module>book-manager1-interface</module>
   	<module>book-manager1-pojo</module>
+  	<module>book-manager1-service</module>
   </modules>
 </project>
